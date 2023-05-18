@@ -16,17 +16,20 @@
   </head>
   <body>
     <div class="container">
+      <div class="header">
+        <h1>Check the weather!</h1>
+      </div>
       <div class="input">
-        <input type="text" placeholder="City Name" />
-        <button id="searchCity">Search</button>
+        <input type="text" placeholder="Enter City name..." />
+        <button id="searchCity" class="searchBtn">Search</button>
       </div>
       <div class="weather-info">
         <div class="icon"></div>
         <div class="weather"></div>
         <div class="temperature"></div>
-        <div class="weather-description"></div>
+        <div class="description"></div>
       </div>
     </div>
   </body>
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
 </html>
